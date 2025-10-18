@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Българските будители — Начало</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: darkcyan;">
+  <header class="header">
+    <div class="brand">
+      <div class="logo">Н</div>
+      <div>
+        <div style="font-weight:700">Начало</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="index.html" class="active">Начало</a>
+      <a href="istorija.html">История</a>
+      <a href="paisii.html">Паисий Хилендарски</a>
+      <a href="sofronii.html">Софроний Врачански</a>
+      <a href="botev.html">Христо Ботев</a>
+      <a href="suvremenni.html">Съвременни</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Българските будители</h1>
+      </div>
+      <div style="text-align: center;">
+        <img src="https://www.az-deteto.bg/pic/article/picture/15183.jpg" alt="Будители" >
+
+      </div>
+    </section>
+
+    <div class="grid">
+      <div class="card article">
+        <h2>Добре дошли</h2>
+        <p>Този сайт представя шест важни страници, посветени на българските просветители — техния живот, дело и значение за националното възраждане и памет.</p>
+    </div>
+
+      <aside class="card">
+        <h3>Бързи връзки</h3>
+        <ul class="list">
+          <li><a href="istorija.html">История на Деня на будителите</a></li>
+          <li><a href="paisii.html">Паисий Хилендарски</a></li>
+          <li><a href="sofronii.html">Софроний Врачански</a></li>
+          <li><a href="botev.html">Христо Ботев</a></li>
+          <li><a href="suvremenni.html">Съвременни будители</a></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="footer">© <span id="year"></span> Български будители - Изготвено от: Кирил Ставрев</div>
+  </main>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
